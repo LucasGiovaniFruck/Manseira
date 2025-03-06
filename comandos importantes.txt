@@ -1,0 +1,14 @@
+cd onedrive
+cd documentos 
+cd projetos 
+npm install -g npm@11.0.0
+npm install -g npm@lates
+node - - version
+npm install express -g
+npm install express-generator -g
+express -e --git teste(criar uma nova pagina)
+cd teste
+npm install
+npm start
+ctrl +c (parar programa)
+code . (entrar direto pro visual code)
