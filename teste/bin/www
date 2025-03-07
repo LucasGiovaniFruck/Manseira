@@ -3,6 +3,7 @@
 /**
  * Module dependencies.
  */
+global.bd = require('../bd');
 
 var app = require('../app');
 var debug = require('debug')('teste:server');
