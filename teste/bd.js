@@ -8,7 +8,8 @@ async function conectarBD()
         return global.connection;
     }
 
-    const conexao = await mysql.createConnection(
+    const conexao = await mysql.createConnection
+    (
         {
             host: 'localhost',
             port: '3306',

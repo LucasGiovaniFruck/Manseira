@@ -6,7 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { titulo: 'Login', mensagem: 'Por favor identifique-se' });
 });
 
-router.post('/login', async function(req, res, next) {
+router.post('/login', async function(req, res, next) 
+{
   const email = req.body.email;
   const senha = req.body.senha;
 
