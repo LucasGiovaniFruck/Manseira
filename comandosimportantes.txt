@@ -12,3 +12,5 @@ npm install
 npm start
 ctrl +c (parar programa)
 code . (entrar direto pro visual code)
+
+Manseira
