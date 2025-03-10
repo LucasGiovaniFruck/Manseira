@@ -3,8 +3,7 @@ const mysql = require('mysql2/promise');
 async function conectarBD()
 {
 
-    if (global.connection && global.connection.state !== 'disconnected')
-    {
+    if (global.connection && global.connection.state !== 'disconnected'){
         return global.connection;
     }
 
