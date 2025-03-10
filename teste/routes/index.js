@@ -28,8 +28,7 @@ router.post('/login', async function(req, res, next)
 
 });
 
-router.get('/perfis', function(req, res, next )
-{
+router.get('/perfis', function(req, res, next ){
   if (!global.usuario || global.usuario == "")
   {
     res.redirect('/');
